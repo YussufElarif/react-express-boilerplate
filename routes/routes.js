@@ -1,52 +1,18 @@
 var express = require('express');
-var app = express();
+var path = require("path");
 var router = express.Router();
 
-var web = require("./controllers/index");
+var product = require("./controllers/product");
 
-//API
-var login = require("./controllers/api/login");
-var logout = require("./controllers/api/logout");
-var register = require("./controllers/api/register");
+router.route("/api/product")
+      .get(product.index);
 
-var movie = require("./controllers/api/movie");
-var tv = require("./controllers/api/tv");
-var favourite = require("./controllers/api/favourite");
+router.route("/api/product/:id")
+      .get(product.show);
 
-//Api for loginm registration and logging out
-router.route("/api/login")
-      .post(login);
-
-router.route("/api/register")
-      .post(register);
-
-router.route("/api/logout")
-      .post(logout);
-
-//Api for Movie
-router.route("/api/movie")
-      .get(movie.index);
-
-router.route("/api/movie/:id")
-      .get(movie.show);
-
-//Api for TV
-router.route("/api/tv")
-      .get(tv.index);
-
-router.route("/api/tv/:id")
-      .get(tv.show);
-
-//Api for Favourite
-router.route("/api/favourite")
-      .post(favourite.create);
-
-router.route("/api/favourite/:id")
-      .get(favourite.show)
-      .delete(favourite.delete);
-
-//Route for the client side application routing
 router.route('*')
-      .get(web.index);
+      .get(function (req, res) {
+            res.sendFile(path.resolve('./index.html'));
+      });
 
 module.exports = router;
