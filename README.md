@@ -1,4 +1,8 @@
 # React Boilerplate
+[![GitHub issues](https://img.shields.io/github/issues/vemuez/react-boilerplate.svg)](https://github.com/vemuez/react-boilerplate/issues)
+[![GitHub forks](https://img.shields.io/github/forks/vemuez/react-boilerplate.svg)](https://github.com/vemuez/react-boilerplate/network)
+[![GitHub stars](https://img.shields.io/github/stars/vemuez/react-boilerplate.svg)](https://github.com/vemuez/react-boilerplate/stargazers)
+
 ### Install
 Install necessary packages to get your environment set up
 ```
