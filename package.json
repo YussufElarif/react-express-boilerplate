@@ -7,7 +7,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app",
-    "webpack": "webpack --watch",
+    "webpack": "webpack",
+    "webpack:w": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
