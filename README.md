@@ -1,16 +1,16 @@
-<h1>React Boilerplate</h1>
-<h3>Install</h3>
+# React Boilerplate
+### Install
 Install necessary packages to get your environment set up
 ```
 npm install
 ```
-<h3>Mongo</h3>
-Set up <a href="https://docs.mongodb.com/manual/installation/" target="_blank">Mongo</a> and run mongod.
+### Mongo
+Set up [Mongo](https://docs.mongodb.com/manual/installation/) and run mongod.
 ```
 mongod
 ```
 
-<h3>Webpack</h3>
+### Webpack
 Install webpack globally
 ```
 npm install webpack -g
@@ -21,7 +21,7 @@ or run locally in directory
 npm run webpack:w
 ```
 
-<h3>Start</h3>
+### Start
 and Finally, run
 ```
 npm start
