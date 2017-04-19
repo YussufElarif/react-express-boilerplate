@@ -1,18 +1,8 @@
-var React = require("react");
-var Link = require("react-router").Link;
+import React from "react";
+import { Link } from "react-router";
 
-var Header = React.createClass({
-  handleLogout: function(e){
-    e.preventDefault();
-    axios.post("/logout").then(function(data){
-      location.href = "/login";
-    });
-  },
-  render: function(){
-    return (
-      <header>header</header>
-    )
+export default class Header extends React.Component {
+  render() {
+    return (<header>header</header>)
   }
-});
-
-module.exports = Header;
+}
