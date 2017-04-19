@@ -7,10 +7,9 @@ var IndexRoute = ReactRouter.IndexRoute;
 var Route = ReactRouter.Route;
 var browserHistory = ReactRouter.browserHistory;
 
-var Main = require("./app/main.jsx");
-var Errors = require("./app/404.jsx");
-var Product = require("./product/product.jsx");
-// require scss file for it to be rendered
+var Main = require("./components/main.jsx");
+var Errors = require("./components/error/error.jsx");
+var Product = require("./components/product/product.jsx");
 
 ReactDOM.render(
   <Router history={browserHistory}>

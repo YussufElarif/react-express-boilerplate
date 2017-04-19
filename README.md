@@ -8,25 +8,17 @@ Install necessary packages to get your environment set up
 ```
 npm install
 ```
-### Mongo
+
+### Mongo (Optional)
 Set up [Mongo](https://docs.mongodb.com/manual/installation/) and run mongod.
 ```
 mongod
 ```
 
-### Webpack
-Install webpack globally
-```
-npm install webpack -g
-webpack -w
-```
-or run locally in directory
-```
-npm run webpack:w
-```
+In *app.js*, uncomment block of code
 
 ### Start
-and Finally, run
 ```
 npm start
 ```
+Goto http://localhost:3000
