@@ -14,11 +14,7 @@ app.use(session({
   secret: 'SECRET_SESSION_NAME'
 }));
 
-<<<<<<< HEAD
-mongoose.connect("mongodb://localhost/" + "dbname");
-=======
 // mongoose.connect("mongodb://localhost/" + "dbname");
->>>>>>> 484dd924744c829083c1198fec8e05f09d3c0781
 
 app.use(express.static(__dirname));
 app.use(routes);
