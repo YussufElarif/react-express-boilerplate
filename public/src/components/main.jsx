@@ -1,18 +1,15 @@
-var React = require("react");
+import React from "react";
+import Header from "./header.jsx";
+import Footer from "./footer.jsx";
 
-var Header = require("./header.jsx");
-var Footer = require("./footer.jsx");
-
-var Body = React.createClass({
-  render: function () {
+export default class Body extends React.Component {
+  render() {
     return (
       <div>
         <Header />
         <main>{ this.props.children }</main>
         <Footer />
       </div>
-    )
+    );
   }
-});
-
-module.exports = Body;
+}

@@ -1,11 +1,7 @@
-var React = require("react");
+import React from "react";
 
-var Product = React.createClass({
-    render: function () {
-        return (
-            <div>test</div>
-        )
-    }
-});
-
-module.exports = Product;
+export default class Product extends React.Component {
+  render() {
+    return (<div>products</div>);
+  }
+}
