@@ -1,3 +1,3 @@
-var Dispatcher = require("flux").Dispatcher;
-var AppDispatcher = new Dispatcher();
-module.exports = AppDispatcher;
+import { Dispatcher } from "flux";
+
+export default AppDispatcher = new Dispatcher();

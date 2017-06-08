@@ -15,7 +15,7 @@ var config = {
       {
         test: /\.jsx?/,
         include: JS_DIR,
-        loader: 'babel',
+        loader: 'babel-loader',
         query: {
           "presets": ["es2015", "react"]
         }
