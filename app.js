@@ -20,3 +20,5 @@ app.use(express.static(__dirname));
 app.use(routes);
 
 app.listen(process.env.PORT || "3300");
+
+module.exports = app;
