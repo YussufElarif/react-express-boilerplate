@@ -19,4 +19,4 @@ app.use(session({
 app.use(express.static(__dirname));
 app.use(routes);
 
-app.listen("3000");
+app.listen(process.env.PORT || "3300");

@@ -16,11 +16,15 @@ Set up [Mongo](https://docs.mongodb.com/manual/installation/) and run mongod.
 ```
 mongod
 ```
-
-In *app.js*, uncomment block of code
-
+Uncomment code block in following paths
+```
+ - app.js <-- Here
+    - routes/
+        - controllers/
+            - product.js  <-- Here
+```
 ### Start
 ```
 npm start
 ```
-Goto http://localhost:3000
+Goto http://localhost:3300
