@@ -8,7 +8,7 @@ chai.use(chaiHttp);
 describe('Product Api Controllers', function () {
     it('should get all products /api/products GET', function (done) {
         chai.request(server)
-            .get("/api/products")
+            .get("/api/product")
             .end(function (err, res) {
                 res.should.have.status(200);
                 res.should.be.json;

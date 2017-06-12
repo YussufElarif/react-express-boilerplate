@@ -4,6 +4,7 @@ var mongoose = require("mongoose");
 var bodyParser = require('body-parser');
 var routes = require("./routes/routes");
 var session = require('express-session');
+var bluebird = require('bluebird');
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -14,7 +15,8 @@ app.use(session({
   secret: 'SECRET_SESSION_NAME'
 }));
 
-// mongoose.connect("mongodb://localhost/" + "dbname");
+mongoose.Promise = bluebird;
+mongoose.connect("mongodb://localhost/" + "react-boilerplate");
 
 app.use(express.static(__dirname));
 app.use(routes);
