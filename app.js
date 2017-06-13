@@ -15,12 +15,12 @@ app.use(session({
   secret: 'SECRET_SESSION_NAME'
 }));
 
-mongoose.Promise = bluebird;
-mongoose.connect("mongodb://localhost/" + "react-boilerplate");
+// mongoose.Promise = bluebird;
+// mongoose.connect("mongodb://localhost/" + "react-boilerplate");
 
 app.use(express.static(__dirname));
 app.use(routes);
 
-app.listen(process.env.PORT || "3300");
+app.listen(process.env.PORT || "3424");
 
 module.exports = app;

@@ -22,6 +22,8 @@ Uncomment code block in following paths
     - routes/
         - controllers/
             - product.js  <-- Here
+    - test
+        - routes.js <-- Here
 ```
 ### Start
 ```
