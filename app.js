@@ -5,6 +5,7 @@ var bodyParser = require('body-parser');
 var routes = require("./routes/routes");
 var session = require('express-session');
 var bluebird = require('bluebird');
+var port = process.env.PORT || "8080";
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -21,6 +22,6 @@ app.use(session({
 app.use(express.static(__dirname));
 app.use(routes);
 
-app.listen(process.env.PORT || "3424");
+app.listen(port, () => console.log("listening at localhost:" + port));
 
 module.exports = app;

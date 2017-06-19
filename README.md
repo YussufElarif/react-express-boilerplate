@@ -29,4 +29,4 @@ Uncomment code block in following paths
 ```
 npm start
 ```
-Goto http://localhost:3300
+Goto http://localhost:8080
