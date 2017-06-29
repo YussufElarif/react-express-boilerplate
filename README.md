@@ -1,8 +1,8 @@
 # React Boilerplate
-[![GitHub issues](https://img.shields.io/github/issues/vemuez/react-boilerplate.svg)](https://github.com/vemuez/react-boilerplate/issues)
-[![GitHub forks](https://img.shields.io/github/forks/vemuez/react-boilerplate.svg)](https://github.com/vemuez/react-boilerplate/network)
-[![GitHub stars](https://img.shields.io/github/stars/vemuez/react-boilerplate.svg)](https://github.com/vemuez/react-boilerplate/stargazers)
-[![Build Status](https://travis-ci.org/vemuez/react-boilerplate.svg?branch=feature/mongoose)](https://travis-ci.org/vemuez/react-boilerplate)
+[![GitHub issues](https://img.shields.io/github/issues/vemuez/react-express-boilerplate.svg)](https://github.com/vemuez/react-express-boilerplate/issues)
+[![GitHub forks](https://img.shields.io/github/forks/vemuez/react-express-boilerplate.svg)](https://github.com/vemuez/react-express-boilerplate/network)
+[![GitHub stars](https://img.shields.io/github/stars/vemuez/react-express-boilerplate.svg)](https://github.com/vemuez/react-express-boilerplate/stargazers)
+[![Build Status](https://travis-ci.org/vemuez/react-express-boilerplate.svg?branch=feature/mongoose)](https://travis-ci.org/vemuez/react-express-boilerplate)
 
 
 ### Install
