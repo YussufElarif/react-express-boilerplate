@@ -4,6 +4,9 @@
 [![GitHub stars](https://img.shields.io/github/stars/vemuez/react-express-boilerplate.svg)](https://github.com/vemuez/react-express-boilerplate/stargazers)
 [![Build Status](https://travis-ci.org/vemuez/react-express-boilerplate.svg?branch=feature/mongoose)](https://travis-ci.org/vemuez/react-express-boilerplate)
 
+### Info
+This repo is no longer maintained. 
+Checkout [create-react-app](https://github.com/facebookincubator/create-react-app)
 
 ### Install
 Install necessary packages to get your environment set up
